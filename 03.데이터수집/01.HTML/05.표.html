@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        <table> : 하나의 표를 나타내는 태그
+        <tr> : 표 안에서 하나의 행을 나타내는 태그
+        <th> : 행 안에서 제목에 해당하는 셀을 나타내는 태그
+        <td> : 행 안에서 항목에 해당하는 셀을 나타내는 태그
+    -->
+
+            <table border="1">
+                <!-- 표에 제목 추가하기-->
+                <caption>
+                    <strong>국가대표 선수 명단</strong>    
+                    <br> 
+                    남자 마라톤
+                </caption>   
+
+                <tr>
+                    <th>한국 선수</th>
+                    <th>일본 선수</th>
+                    <th>미국 선수</th>
+                </tr>
+                <tr>
+                    <td>김철수</td>
+                    <td>오오다</td>
+                    <td>제임스</td>
+                </tr>
+                <tr>
+                    <td>홍길동</td>
+                    <td>김기백</td>
+                    <td>이상아</td>
+                </tr>
+            </table>
+            <br>
+        <!-- 표 구조를 나타내는 태그들 
+            <thead> : 표의 제목을 나타내는 영역
+            <tbody> : 표의 본문을 나타내는 영역
+            <tfoot> : 표의 요약 부분을 나타내는 영역
+        -->
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>한국 선수</th>
+                    <th>일본 선수</th>
+                    <th>미국 선수</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>김철수</td>
+                    <td>오오다</td>
+                    <td>제임스</td>
+                </tr>
+                <tr>
+                    <td>홍길동</td>
+                    <td>김기백</td>
+                    <td>이상아</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>세계 랭킹 5위</td>
+                    <td>세계 랭킹 8위</td>
+                    <td>세계 랭킹 2위</td>
+                </tr>
+            </tfoot>
+
+        </table>
+            
+</body>
+</html>

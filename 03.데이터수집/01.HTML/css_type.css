@@ -1,0 +1,20 @@
+h1{
+        color: red; 
+}
+
+
+#bg{ 
+    background-color: yellow;
+}
+
+#color{
+    color: red;
+}
+
+.size{
+    font-size: 50px;
+}
+
+.color{
+    color: blue;
+}
